@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Drawing app</title>
+</head>
+
+<body>
+    <div class="contaier">
+        <section class="tools-board">
+            <div class="row">
+                <label class="title">Shapes</label>
+                <ul class="options">
+
+                    <li class="option"><img src="https://freesvg.org/img/1354707850.png" style="width:20px;height:20px;"
+                            alt=""> <span>Triangle</span></li>
+                    <li class="option"> <img src="https://static.thenounproject.com/png/3206234-200.png"
+                            style="width:20px;height:20px;" alt=""><span>Circle</span></li>
+                    <li class="option"><img src="https://static.thenounproject.com/png/1570078-200.png"
+                            style="width:20px;" alt=""><span> triangle</span>
+                    </li>
+                    <li class="option"> <input type="checkbox" id="fill-color">
+                        <label for="fill-color">Fill Color</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <label class="title">Options</label>
+                <ul class="options">
+
+                    <li class="option"><img src="https://cdn-icons-png.flaticon.com/128/103/103414.png"
+                            style="width:20px;height:20px;" alt=""> <span>Bursh</span></li>
+                    <li class="option"> <img src="https://cdn-icons-png.flaticon.com/128/2708/2708397.png"
+                            style="width:20px;height:20px;" alt=""><span>Eraser</span></li>
+
+                    <li class="option"> <input type="range" id="size">
+                        <label for="fill-color">Sizer</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <label class="title">Colors</label>
+                <ul class="options">
+
+                    <li class="option"></li>
+                    <li class="option"> </li>
+
+                    <li class="option"></li>
+                </ul>
+            </div>
+            <div class="row">
+                <button>Save Image</button>
+                <button>Clear Canavs</button>
+            </div>
+        </section>
+        <section class="drawing-board">
+
+        </section>
+    </div>
+</body>
+
+</html>
